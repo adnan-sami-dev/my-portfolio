@@ -304,3 +304,27 @@ a:hover {
 .hamburger-icon span:nth-child(3) {
     transform: none;
 }
+
+/* ABOUT */
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+    font-family: monospace, sans-serif;
+    color: rgb(60, 60, 60);
+    line-height: 1.6;
+}
+
+.about__heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.about__text__p1,
+.about__text__p2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
