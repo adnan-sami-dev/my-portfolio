@@ -328,3 +328,121 @@ a:hover {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
+/* PROJECTS */
+#experience {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    font-family: monospace, sans-serif;
+    text-align: center;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.03);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #111;
+}
+
+.project-tech {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-family: monospace, sans-serif;
+    font-size: 0.85rem;
+    padding: 0.4rem 0.9rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-color-1 {
+    background-color: black;
+    color: white;
+}
+
+.btn-color-1:hover {
+    background-color: #333;
+}
+
+.btn-color-2 {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn-color-2:hover {
+    background-color: #f0f0f0;
+}
+
+/* CONTACT */
+#contact {
+    padding: 4rem 2rem;
+    text-align: center;
+    font-family: monospace, sans-serif;
+}
+
+.contact__heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+.contact__text__p1 {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
